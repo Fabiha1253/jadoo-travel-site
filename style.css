@@ -1,0 +1,907 @@
+body {
+    overflow-x: hidden;
+}
+
+.jadoo-txt {
+    font-family: 'Volkhov', serif;
+
+    color: #181E4B;
+    width: 114px;
+    height: 33px;
+
+}
+
+.hero-section {
+
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #212832;
+    margin-right: 48px;
+}
+
+.sign-up-btn {
+    border: 1px solid #212832;
+    border-radius: 5px;
+    padding: 6px 24px;
+}
+
+.hero-tagline {
+    color: #DF6951;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.hero-title {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1;
+    color: #181E4B;
+    position: relative;
+}
+
+.hero-underline {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    height: 15px;
+    width: 200px;
+    background-color: #d32503;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.hero-text {
+    color: #5E6282;
+    margin-bottom: 32px;
+    width: 80%;
+}
+
+.btn-find-more {
+    background-color: #F1A501;
+    border: none;
+    padding: 16px 28px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 10px 30px rgba(241, 165, 1, 0.3);
+}
+
+.play-demo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+.play-btn {
+    background-color: #DF6951;
+    color: white;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    box-shadow: 0 10px 30px rgba(223, 105, 81, 0.3);
+}
+
+.play-text {
+    color: #686D77;
+    font-weight: 500;
+}
+
+.decoration-image {
+
+    position: absolute;
+
+    left: 620px;
+    top: -149px;
+
+}
+
+.traveller-img-container {
+    position: absolute;
+    width: 765px;
+    height: 764px;
+    left: -150px;
+    top: -320px;
+    z-index: 2;
+}
+
+
+.services-section {
+    padding: 96px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.services-title {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #14183E;
+    margin-bottom: 48px;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 36px;
+    transition: all 0.3s ease;
+    height: 300px;
+
+}
+
+
+
+
+
+.service-icon-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.service-card-title {
+    font-family: 'Volkhov', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1D4C;
+}
+
+.service-card-text {
+    color: #5E6282;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.service-vector-icon {
+    color: skyblue;
+
+}
+
+
+
+
+.red-box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px 0px 10px 0px;
+
+    background: rgb(223, 105, 81);
+
+    bottom: 50px;
+    right: 30px;
+    z-index: -1;
+}
+
+
+.top-destination-decore {
+
+    top: 200px;
+    right: 10px;
+    z-index: -1;
+
+}
+
+
+.destinations-title {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #14183E;
+    margin-bottom: 48px;
+}
+
+.destination-card {
+
+
+    border-radius: 24px;
+
+
+
+    background: rgb(255, 255, 255);
+
+    box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0), 0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.01), 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+
+    z-index: 5;
+
+
+}
+
+.destination-image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 24px 24px 0 0;
+    position: relative;
+}
+
+.destination-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.destination-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #FF5B5B;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+
+.destination-details {}
+
+.destination-name {
+    font-family: 'Volkhov', serif;
+    font-weight: 600;
+    color: #1E1D4C;
+    font-size: 20px;
+}
+
+.destination-price {
+    font-weight: 700;
+    color: #1E1D4C;
+}
+
+.trip-duration {
+    color: #5E6282;
+    font-size: 15px;
+}
+
+.destination-icon {
+    color: #5E6282;
+    transform: rotate(45deg);
+}
+
+
+/* Book Trip Section Styles */
+.book-trip-section {
+    padding: 112px 0;
+    position: relative;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.book-trip-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(#EAF0F4 8%, transparent 8%);
+    background-position: 0 0;
+    background-size: 30px 30px;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.book-trip-title {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 51px;
+    color: #14183E;
+    margin-bottom: 48px;
+}
+
+/* Booking Steps Styles */
+.booking-step-icon-container {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    color: white;
+}
+
+.step-1 {
+    background-color: #F0BB1F;
+}
+
+.step-2 {
+    background-color: #F15A2B;
+}
+
+.step-3 {
+    background-color: #006380;
+}
+
+.booking-step-title {
+    font-weight: 700;
+    color: #1E1D4C;
+    font-size: 18px;
+}
+
+.booking-step-text {
+    color: #5E6282;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+
+
+/* Trip Card Styles */
+.trip-card-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+
+
+.trip-card {
+    border-radius: 26px;
+
+    box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0), 0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.01), 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+
+    background: rgb(255, 255, 255);
+
+    padding: 24px;
+
+    color: #84829A;
+
+    z-index: 2;
+}
+
+.main-trip-card {
+    width: 370px;
+}
+
+.trip-card-title {
+    font-weight: 700;
+    color: #1E1D4C;
+}
+
+.trip-card-date {
+    color: #5E6282;
+    font-size: 14px;
+}
+
+.trip-icon-container {
+    width: 36px;
+    height: 36px;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #84829A;
+}
+
+.trip-card-footer {
+    color: #84829A;
+    font-size: 15px;
+}
+
+.ellipse-container {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    top: 20px;
+    filter: blur(100px);
+    background: rgb(89, 177, 230);
+    opacity: 0.9;
+    border-radius: 50%;
+    
+}
+
+
+.small-trip-card {
+    font-family: Poppins;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    width: 260px;
+    padding: 15px;
+    border-radius: 18px;
+    z-index: 4;
+}
+
+.small-trip-image {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+
+
+.small-card-title {
+    font-family: Poppins;
+    color: #1E1D4C;
+    font-weight: 600;
+}
+
+.completion-text {
+    font-family: Poppins;
+    font-size: 13px;
+    color: #5E6282;
+    text-align: left;
+}
+
+.progress-bar {
+    background-color: #8A79DF !important;
+}
+
+
+
+
+.testimonials-section {
+    padding: 112px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials-title {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 51px;
+    color: #14183E;
+}
+
+.testimonial-indicators {
+    margin-top: 60px;
+}
+
+.testimonial-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+
+
+}
+
+.testimonial-indicator-active {
+    width: 12px;
+    height: 12px;
+    background-color: #3E2E4D;
+    border-radius: 50%;
+}
+
+.testimonials-container {
+    position: relative;
+    height: 400px;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    position: relative;
+    transition: all 0.4s ease;
+
+
+
+
+}
+
+.active-testimonial {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 3;
+    width: 504px;
+    height: 245px;
+}
+
+.inactive-testimonial {
+    position: absolute;
+    width: 504px;
+    top: 240px;
+    right: 0px;
+
+
+    padding: 20px;
+    z-index: 2;
+    opacity: 0.6;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+
+
+
+}
+
+.testimonial-image-container {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -35px;
+    left: -30px;
+}
+
+.testimonial-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.testimonial-content {
+    margin-top: 20px;
+}
+
+.testimonial-text {
+    color: #5E6282;
+    font-size: 16px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+.testimonial-name {
+    color: #1E1D4C;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.testimonial-location {
+    color: #5E6282;
+    font-size: 14px;
+}
+
+.testimonial-navigation {
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    bottom: 100px;
+    z-index: 4;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: black;
+
+
+}
+
+.partners-section {
+    padding: 48px 0 80px;
+    background-color: white;
+}
+
+.partners-container {
+    padding: 32px 0;
+}
+
+.partner-logo {
+    width: 150px;
+    height: 80px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+
+}
+
+.expedia-logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0), 0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.01), 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    background: rgb(255, 255, 255);
+}
+
+
+.placeholder-logo {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 8px;
+}
+
+.placeholder-text {
+    color: #8A8A8A;
+    font-weight: 500;
+    font-size: 19px;
+    text-transform: lowercase;
+}
+
+/* Newsletter Section Styles */
+.newsletter-section {
+    padding: 64px 0;
+}
+
+.newsletter-container {
+
+    border-radius: 20px 129px 20px 20px;
+    background: rgb(223, 215, 249, 0.4);
+
+
+    padding: 64px 32px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: hidden;
+    border-radius: 129px 20px 20px 20px;
+}
+
+.newsletter-title {
+    font-family: 'Volkhov', serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #5E6282;
+    line-height: 1.4;
+}
+
+.newsletter-form-container {
+    margin-top: 48px;
+    position: relative;
+    z-index: 2;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8A8A8A;
+}
+
+.newsletter-input {
+    width: 100%;
+    padding: 16px 16px 16px 48px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.newsletter-input::placeholder {
+    color: #8A8A8A;
+}
+
+.newsletter-btn {
+    background-color: #FF7D68;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0 10px 20px rgba(255, 125, 104, 0.3);
+
+}
+
+.newsletter-btn:hover {
+    background-color: #ff6a53;
+
+}
+
+.send-icon-container {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    width: 70px;
+    height: 70px;
+
+    background: linear-gradient(216.20deg, rgb(116, 125, 239) 13.888%, rgb(94, 59, 225) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    z-index: 1;
+
+}
+
+/* Decorative elements */
+.newsletter-decor-1 {
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    width: 150px;
+    height: 150px;
+    background-color: #F0BB1F;
+    opacity: 0.1;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.newsletter-decor-2 {
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background-color: #8A79DF;
+    opacity: 0.1;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.newsletter-decor-3 {
+    position: absolute;
+    bottom: 20px;
+    left: -40px;
+    width: 100px;
+    height: 100px;
+    background-color: #FF7D68;
+    opacity: 0.1;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+
+/* Footer Section Styles */
+.footer-section {
+    padding: 80px 0 48px;
+    background-color: #F9F9F9;
+}
+
+.footer-logo {
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #181E4B;
+}
+
+.footer-tagline {
+    color: #5E6282;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 240px;
+}
+
+.footer-heading {
+    color: #181E4B;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 16px;
+}
+
+.footer-links a {
+    color: #5E6282;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    color: #181E4B;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+
+.instagram {
+    background: url('/images/Background.png');
+    background-position: center;
+    background-repeat: none;
+
+    color: white;
+}
+
+.facebook {
+    background-color: white;
+    color: black;
+}
+
+.twitter {
+    background-color: white;
+    color: black;
+}
+
+.app-badge {
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+
+
+.app-icon {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.app-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    color: white;
+}
+
+.app-get {
+    font-size: 8px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.app-store {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -1px;
+}
+
+.google-play {
+    color: #34A853;
+}
+
+.apple-store {
+    color: white;
+}
+
+.copyright-text {
+    color: #5E6282;
+    font-size: 14px;
+}
